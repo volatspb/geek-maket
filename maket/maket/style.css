@@ -54,7 +54,7 @@ body {
   height: 19px;
   position: absolute;
   top: 7px;
-  left: -37px;
+  left: -30px;
   background-image: url("img/layers.png");
   background-size: cover;
 }
@@ -67,38 +67,49 @@ body {
   float: right;
 }
 
+/* --- section about ---*/
+
 .adout-box {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
+  padding: 50px;
+  box-sizing: border-box;
 }
 
 .adout-box_title {
-  font-family: ArialMT;
+  font-family: Arial;
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
   color: #445161;
-  padding-left: 50px;
+  /*padding-left: 50px;*/
+  padding: 0;
+  margin: 0 0 30px 0;
 }
 
-/* --- section about ---*/
+.adout-box_images {
+  background-color: #445161;
+}
 
 .adout-box_text {
-  font-family: ArialMT;
+  font-family: Arial;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #333333;
-  padding-left: 50px;
+  /*padding-left: 50px;
   padding-top: 30px;
-  padding-right: 97px;
+  padding-right: 97px;*/
+  padding: 0 97px 0 0;
 }
 
 .adout-box_text p {
-  margin: 12px 0;
+  /*margin: 12px 0;*/
+  margin: 0 0 20px 0;
+}
+
+.adout-box_text p:last-child {
+  margin: 0;
 }
 
 /* --- section dignity ---*/
@@ -178,34 +189,41 @@ body {
 /* ---section screenshots ---*/
 
 .section-screenshots {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /*padding-top: 50px;
+  padding-bottom: 50px;*/
+  padding: 50px;
+  box-sizing: border-box;
 }
 .screenshots-top {
   text-align: center;
-  font-family: ArialMT;
+  font-family: Arial;
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
   color: #445161;
-  padding-bottom: 35px;
+  /*padding-bottom: 35px;*/
+  margin: 0 0 35px 0;
 }
 
 .screenshot-top {
-  height: 150px;
+  min-height: 150px;
   display: flex;
-  padding-left: 50px;
+  /*padding-left: 50px;
   padding-bottom: 30px;
-  padding-right: 66px;
+  padding-right: 66px;*/
+  padding: 0;
+  margin: 0 0 20px 0;
 }
 
 .screenshots-box_info {
-  padding-left: 15px;
-  padding-right: 16px;
+  /*padding-left: 15px;
+  padding-right: 16px;*/
+  padding: 0;
+  margin: 0 0 0 15px;
 }
 
 .screenshots-box_title {
-  font-family: ArialMT;
+  font-family: Arial;
   font-size: 24px;
   line-height: 30px;
   font-weight: 400;
@@ -215,7 +233,7 @@ body {
 }
 
 .screenshots-box_text {
-  font-family: ArialMT;
+  font-family: Arial;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -225,6 +243,7 @@ body {
 
 .screenshot-bottom {
   display: flex;
-  padding-left: 50px;
-  padding-right: 66px;
+  /*padding-left: 50px;
+  padding-right: 66px;*/
+  padding: 0;
 }
