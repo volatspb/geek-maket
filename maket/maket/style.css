@@ -219,7 +219,7 @@ body {
   /*padding-left: 15px;
   padding-right: 16px;*/
   padding: 0;
-  margin: 0 0 0 15px;
+  margin: 0 1px 0 15px;
 }
 
 .screenshots-box_title {
@@ -246,4 +246,79 @@ body {
   /*padding-left: 50px;
   padding-right: 66px;*/
   padding: 0;
+}
+
+/* --- section reviews --- */
+
+.reviews {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+
+.reviews-title {
+  text-align: center;
+  font-family: Arial;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+  margin: 0 0 35px 0;
+}
+
+.reviews-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-box-top {
+display: flex;
+justify-content: space-between;
+}
+
+.reviews-box-bottom {
+  display: flex;
+  justify-content: space-between;
+  }
+
+.reviews-img {
+
+}
+
+.reviews-text {
+padding: 10px;
+margin: 0 15px 24px 30px;
+box-sizing: border-box;
+background-color: #ccc;
+border-radius: 10px;
+position: relative;
+}
+
+.reviews-text:before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: -30px;
+  border: 15px solid transparent;
+  border-right: 15px solid #ccc;
+}
+
+.reviews-text_text {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: italic;
+  color: #333333;
+}
+
+.reviews-text_bottom {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #989898;
+  display: block;
+  width: 100%;
+  margin: 10px 0 0 0;
 }
