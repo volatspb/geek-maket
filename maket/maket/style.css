@@ -322,3 +322,103 @@ position: relative;
   width: 100%;
   margin: 10px 0 0 0;
 }
+
+
+/* --- section buy --- */
+
+.container {
+}
+
+.buy {
+  padding: 50px 145px 50px 145px;
+  box-sizing: border-box;
+
+}
+
+.buy-title {
+  text-align: center;
+  display: block;
+  font-family: Arial;
+font-size: 30px;
+line-height: 36px;
+font-weight: 400;
+color: #445161;
+margin: 0 0 30px 0;
+width: 100%;
+}
+
+.buy-box {
+  /*width: 100%;*/
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.buy-price {
+ background-color:  #445161;
+ padding-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial;
+font-size: 24px;
+line-height: 30px;
+font-weight: 400;
+color: #ffffff;
+background-color: #445161;
+padding: 17px;
+}
+
+.price {
+  text-align: center;
+  font-family: Arial;
+font-size: 40px;
+line-height: 30px;
+font-weight: 400;
+color: #445162;
+background-color: #fff;
+padding: 18px;
+margin: 0 0 10px 0;
+border: 1px solid #445161;;
+}
+
+.price-item {
+  font-family: Arial;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #ffffff;
+background-color: #445161;
+margin: 19px 38px 21px 20px;
+padding: 0 0 0 7px;
+}
+.price-btn {
+display: block;
+margin: 0 auto;
+padding: 5px 10px;
+width: 80px;
+background-color: #fff;
+border: 1px solid #fff;
+border-radius: 3px;
+width: 260px;
+height: 40px;
+font-family: Arial;
+font-size: 18px;
+line-height: 18px;
+font-weight: 700;
+color: #445161;
+}
+
+.price-btn:hover {
+background-color: #445161;
+color: #fff;
+}
+
+.price-btn:active {
+background-color: #fff;
+color: #445161;;
+}
