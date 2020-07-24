@@ -172,7 +172,7 @@ body {
 }
 
 .dignity-list-item:before {
-  content: url("img/layer_2_30.png");
+  content: url("../img/layer_2_30.png");
   display: block;
   width: 32px;
   height: 32px;
