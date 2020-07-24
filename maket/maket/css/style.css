@@ -282,9 +282,7 @@ justify-content: space-between;
   justify-content: space-between;
   }
 
-.reviews-img {
 
-}
 
 .reviews-text {
 padding: 10px;
@@ -327,8 +325,7 @@ position: relative;
 
 /* --- section buy --- */
 
-.container {
-}
+
 
 .buy {
   padding: 50px 145px 50px 145px;
