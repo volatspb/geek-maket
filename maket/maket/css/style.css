@@ -172,7 +172,7 @@ body {
 }
 
 .dignity-list-item:before {
-  content: url("img/layer_2_30.png");
+  content: url("../img/layer_2_30.png");
   display: block;
   width: 32px;
   height: 32px;
@@ -282,9 +282,7 @@ justify-content: space-between;
   justify-content: space-between;
   }
 
-.reviews-img {
 
-}
 
 .reviews-text {
 padding: 10px;
@@ -327,8 +325,7 @@ position: relative;
 
 /* --- section buy --- */
 
-.container {
-}
+
 
 .buy {
   padding: 50px 145px 50px 145px;
