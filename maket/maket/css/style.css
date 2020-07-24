@@ -395,7 +395,7 @@ font-weight: 400;
 color: #ffffff;
 background-color: #445161;
 margin: 19px 38px 21px 20px;
-padding: 0 0 0 7px;
+padding: 0 0 0 20px;
 }
 .price-btn {
 display: block;
@@ -412,6 +412,7 @@ font-size: 18px;
 line-height: 18px;
 font-weight: 700;
 color: #445161;
+text-transform: uppercase;
 }
 
 .price-btn:hover {
