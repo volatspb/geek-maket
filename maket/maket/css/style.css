@@ -85,6 +85,7 @@ body {
   /*padding-left: 50px;*/
   padding: 0;
   margin: 0 0 30px 0;
+  display: block;
 }
 
 .adout-box_images {
@@ -100,7 +101,7 @@ body {
   /*padding-left: 50px;
   padding-top: 30px;
   padding-right: 97px;*/
-  padding: 30px 97px 0 0;
+  padding: 0px 97px 0 0;
 }
 
 .adout-box_text p {
@@ -264,6 +265,7 @@ body {
   padding: 50px;
   box-sizing: border-box;
   background-color: #f5f5f5;
+  padding-bottom: 26px;
 }
 
 
@@ -366,14 +368,19 @@ width: 100%;
 }
 
 .buy-price {
-  background-color:  #445161;
+  /*background-color:  #445161;*/
   padding-bottom: 20px;
   border-radius: 5px;
+  width: 300px;
+  border: 2px solid #445162;
+  box-sizing: border-box;
+  background-color: #445162;
+  color: #fff;
 }
 
 .title {
-  text-align: center;
-  font-family: Arial;
+text-align: center;
+font-family: Arial;
 font-size: 24px;
 line-height: 30px;
 font-weight: 400;
@@ -381,11 +388,15 @@ color: #ffffff;
 background-color: #445161;
 padding: 17px;
 border-radius: 5px;
+display: block;
+padding: 14px;
+box-sizing: border-box;
+text-align: center;
 }
 
 .price {
-  text-align: center;
-  font-family: Arial;
+text-align: center;
+font-family: Arial;
 font-size: 40px;
 line-height: 30px;
 font-weight: 400;
@@ -393,7 +404,13 @@ color: #445162;
 background-color: #fff;
 padding: 18px;
 margin: 0 0 10px 0;
-border: 1px solid #445161;;
+border: 1px solid #445161;
+display: block;
+padding: 18px;
+box-sizing: border-box;
+text-align: center;
+background-color: #fff;
+color: #445162;
 }
 
 .price-item {
@@ -403,8 +420,10 @@ line-height: 24px;
 font-weight: 400;
 color: #ffffff;
 background-color: #445161;
-margin: 19px 38px 21px 20px;
+/*margin: 19px 38px 21px 20px;*/
 padding: 0 0 0 20px;
+list-style-position: inside;
+margin-bottom: 20px;
 }
 .price-btn {
 display: block;
@@ -467,6 +486,7 @@ justify-content: center;
 width: 1280px;
 padding: 50px;
 background-color: #445161;
+box-sizing: border-box;
 }
 
 .contacts-title {
@@ -566,21 +586,20 @@ line-height: 24px;
 font-weight: 400;
 color: #ffffff;
 list-style: none;
+padding: 0 0 0 30px;
+margin: 0 0 20px 0;
 }
 
 .contacts-list_item-skype {
 background: url("../img/skype_icon_319.png") no-repeat;
-padding: 0 0 29px 30px;
 }
 
 .contacts-list_item-icq {
   background: url("../img/icq_icon_324.png") no-repeat;
-  padding: 0 0 29px 30px;
 }
 
 .contacts-list_item-email {
   background: url("../img/email_icon_332.png") no-repeat;
-  padding: 0 0 29px 30px;
 }
 
 .contacts-list_item-phone {
