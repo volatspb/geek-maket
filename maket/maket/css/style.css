@@ -545,18 +545,12 @@ textarea[placeholder] {
   background-color: #ffffff;
   width: 140px;
   height: 40px;
-  text-transform: uppercase;
-  font-family: Arial;
-  color: #445162;
-  font-size: 16px;
-  font-weight: 700px;
-  line-height: 24px;
   text-align: center;
   outline: none;
   border: 1px solid #fff;
 }
 
-.contacts-form input[type="submit"]:hover {
+/*.contacts-form input[type="submit"]:hover {
   background-color: #445162;
   color: #fff;
 }
@@ -564,10 +558,29 @@ textarea[placeholder] {
 .contacts-form input[type="submit"]:active {
   background-color: #ffffff;
   color: #445162;
+}*/
+
+#submit {
+font-family: Arial;
+font-size: 16px;
+line-height: 24px;
+font-weight: 700;
+text-transform: uppercase;
+color: #445162;
+}
+
+#submit:hover {
+  background-color: #445162;
+  color: #fff;
+}
+
+#submit:active {
+  background-color: #ffffff;
+  color: #445162;
 }
 
 .contacts-footer {
-  margin: 0 0 37px 0;
+  margin: 0 0 32px 0;
 }
 
 /*.contacts-footer_p {
@@ -587,7 +600,7 @@ font-weight: 400;
 color: #ffffff;
 list-style: none;
 padding: 0 0 0 30px;
-margin: 0 0 20px 0;
+margin: 0 0 18px 0;
 }
 
 .contacts-list_item-skype {
@@ -604,7 +617,6 @@ background: url("../img/skype_icon_319.png") no-repeat;
 
 .contacts-list_item-phone {
   background: url("../img/phone_icon_337.png") no-repeat;
-  padding: 0 0 0 30px;
 }
 
 a {
